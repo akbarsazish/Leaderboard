@@ -1,0 +1,46 @@
+body {
+  background-color: antiquewhite;
+}
+
+.leaderboard {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.leaderboar-container {
+  width: 60%;
+  margin:  auto;
+}
+
+.leaderboard-items {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  padding: 10px;
+  min-height: 80vh;
+}
+
+.leaderboard-form {
+  padding: 5px;
+}
+
+.leaderboard-list {
+  padding: 10px;
+}
+
+.input-field {
+  padding: 5px;
+  margin: 5px;
+}
+
+.recent-score {
+  display: inline;
+  margin: 5px;
+}
+
+.button {
+  padding: 5px;
+}
