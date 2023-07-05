@@ -13,19 +13,26 @@
       <div class="leaderboard-items">
           <div class="leaderboard-list">
             <h2 class="recent-score"> Recent Score  </h2> 
-            <button class="button refresh"> Refresh </button>
-            <ul id="scores-list">
-               <li class="list-item"> ahmad :  22  </li>
-               <li class="list-item"> ali : 33 </li>
-               <li class="list-item"> Jhon : 44  </li>
-             </ul>
+            <button class="button refresh"> Refresh </button> 
+         
+            <fieldset class="score-list-fieldset">
+              <legend>Score List :</legend>
+                <ul id="scores-list" class="scores-list">
+                  <li class="list-item"> ahmad :  22  </li>
+                  <li class="list-item"> ali : 33 </li>
+                  <li class="list-item"> Jhon : 44  </li>
+                </ul>
+              </fieldset>
           </div>
           <div class="leaderboard-form">
-             <h2>Add your score</h2> <br>
+            <fieldset>
+              <legend>Add your score :</legend>
                <form action="#">
                   <input class="input-field" type="text" name="name" id="name" placeholder="Your name"> <br>
-                  <input class="input-field" type="text" name="score" id="score" placeholder="Your score">
+                  <input class="input-field" type="text" name="score" id="score" placeholder="Your score"> <br>
                   <button class="button" type="button" id="button-submit">Submit</button>
+
+                </fieldset>
               </form>
            </div>
           

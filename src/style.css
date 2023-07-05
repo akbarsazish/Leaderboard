@@ -11,7 +11,7 @@ body {
 
 .leaderboar-container {
   width: 60%;
-  margin:  auto;
+  margin: 0 auto;
 }
 
 .leaderboard-items {
@@ -25,10 +25,31 @@ body {
 
 .leaderboard-form {
   padding: 5px;
+  height: 22vh;
+  margin-top: 55px;
+}
+
+.score-list-fieldset {
+  margin-top: 22px;
+  height: 55vh;
+}
+
+fieldset {
+  padding: 22px;
+  border-radius: 5px;
+}
+
+legend {
+  font-size: 22px;
+  font-weight: bold;
 }
 
 .leaderboard-list {
   padding: 10px;
+}
+
+.scores-list {
+  border-radius: 5px;
 }
 
 .input-field {
@@ -43,4 +64,25 @@ body {
 
 .button {
   padding: 5px;
+}
+
+@media (max-width: 768px) {
+  .leaderboard-items {
+    grid-template-columns: auto;
+  }
+
+  .leaderboard-form {
+    order: 1;
+    margin: 22px 5px;
+  }
+
+  .leaderboard-list {
+    order: 2;
+    margin: 22px 5px;
+  }
+
+  .leaderboar-container {
+    width: 90%;
+    margin: 0 auto;
+  }
 }
