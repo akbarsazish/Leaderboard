@@ -110,21 +110,13 @@ You can deploy it with your hosting provider of your choise.
 - Twitter: [@twitterhandle](https://twitter.com/AliAkbarSazish1)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/ali-akbar-sazish/)
 
-
-👤 **EvanSnave**
-
-- GitHub: [EvansSnave](https://github.com/EvansSnave)
-- Twitter: [Kroja13](https://twitter.com/Kroja13)
-- LinkedIn: [Kevin Cruz](https://www.linkedin.com/in/kevin-cruz-25159a201/)
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[To_Do_List]**
+- [ ] **[Leaderboard]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
