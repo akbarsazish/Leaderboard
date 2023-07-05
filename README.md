@@ -81,13 +81,11 @@ git clone https://github.com/akbarsazish/Leaderboard.git
 
 
 ### Install
-Install this project with:  You need to follow the instruction used in the below link.
-https://github.com/microverseinc/linters-config/tree/master/html-css
-after done the linters configuration you can deploy it with your hosting provider of your choise.
+`npm install`
 
 
 ### Usage
-To run the project, execute the following command: You need VS code, web brower and  terminal.
+`npm run dev`
 
 
 ### Run tests
