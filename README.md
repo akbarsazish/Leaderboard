@@ -47,9 +47,9 @@
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
-- **[List_all_books]** 
-- **[Add_books]** 
-- **[Delete_books]** 
+- **[List_all_scores]** 
+- **[Add_Scores]** 
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
