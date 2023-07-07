@@ -32,5 +32,5 @@ const handleSubmit = async (event) => {
   const form = document.getElementById('scoreForm');
   form.addEventListener('submit', handleSubmit);
   
-  export { handleSubmit };
+  export { handleSubmit }
   
