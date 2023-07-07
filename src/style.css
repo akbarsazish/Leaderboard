@@ -68,7 +68,6 @@ legend {
   padding: 5px;
 }
 
-
 @media (max-width: 768px) {
   .leaderboard-items {
     grid-template-columns: auto;
@@ -90,14 +89,11 @@ legend {
   }
 }
 
-/* width */
 ::-webkit-scrollbar {
   width: 10px;
 }
 
- 
-/* Handle */
 ::-webkit-scrollbar-thumb {
-  background: red; 
+  background: red;
   border-radius: 5px;
 }
