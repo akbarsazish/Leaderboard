@@ -1,5 +1,11 @@
 body {
-  background-color: antiquewhite;
+  background:linear-gradient(to right,#6f23ff, #627cf5);
+  color:rgb(240, 232, 232);
+}
+
+.big-title {
+  margin: 44px 10px 0px 18px;
+  font-size: clamp(2.4rem, 2vw + 0.75rem, 1.5rem);
 }
 
 .leaderboard {
@@ -12,13 +18,17 @@ body {
 .leaderboar-container {
   width: 60%;
   margin: 0 auto;
+  border-radius: 8px;
+}
+
+.myLegend {
+  font-size: 18px;
+  color:#fff;
 }
 
 .leaderboard-items {
   display: grid;
   grid-template-columns: auto auto;
-  background-color: #f7f7f7;
-  border-radius: 5px;
   padding: 10px;
   min-height: 80vh;
 }
@@ -26,7 +36,7 @@ body {
 .leaderboard-form {
   padding: 5px;
   height: 22vh;
-  margin-top: 55px;
+  margin-top: 59px;
 }
 
 .score-list-fieldset {
@@ -55,8 +65,11 @@ legend {
 }
 
 .input-field {
-  padding: 5px;
+  padding: 8px;
   margin: 5px;
+  border-radius: 5px;
+  border: none;
+  outline: 0;
 }
 
 .recent-score {
@@ -64,8 +77,25 @@ legend {
   margin: 5px;
 }
 
+
 .button {
-  padding: 5px;
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 14px;
+  padding: 7px 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: black;
+  color: white;
+}
+
+.submitBtn {
+  margin-left: 5px;
 }
 
 @media (max-width: 768px) {
@@ -94,6 +124,6 @@ legend {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: red;
+  background: #fff;
   border-radius: 5px;
 }

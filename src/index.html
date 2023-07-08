@@ -8,24 +8,24 @@
 <body>
   <section class="leaderboard">
     <div class="leaderboar-container">
-      <h1>Leaderboard </h1>       
+      <h1 class="big-title">Leaderboard </h1>       
       <div class="leaderboard-items">
           <div class="leaderboard-list">
             <h2 class="recent-score"> Recent Score  </h2> 
             <button type="button" class="button refresh" id="refresh-button"> Refresh </button> 
             <fieldset class="score-list-fieldset">
-              <legend>Score List :</legend>
+              <legend class="myLegend">Score List :</legend>
                  <ul id="scoreList" class="scores-list">
                  </ul>
               </fieldset>
           </div>
           <div class="leaderboard-form">
             <fieldset>
-              <legend>Add your score :</legend>
+              <legend class="myLegend">Add your score :</legend>
                <form id="scoreForm">
                   <input class="input-field" type="text" name="name" id="name" placeholder="Your name"> <br>
                   <input class="input-field" type="text" name="score" id="score" placeholder="Your score"> <br>
-                  <button class="button" type="submit" id="submit">Submit</button>
+                  <button class="button submitBtn" type="submit" id="submit">Submit</button>
                 </form>
               </fieldset>
           </div>
