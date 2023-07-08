@@ -4,7 +4,6 @@ body {
 }
 
 .big-title {
-  margin: 44px 10px 0px 18px;
   font-size: clamp(2.4rem, 2vw + 0.75rem, 1.5rem);
 }
 
@@ -62,6 +61,24 @@ legend {
 
 .scores-list {
   border-radius: 5px;
+  margin-top: 0px;
+  padding-left: 10px ;
+}
+
+.scores-list li {
+  list-style-type:decimal;
+  margin-top: 5px;
+  padding: 5px;
+}
+
+ul li:nth-child(odd) {
+  background-color:#547af1;
+  border-radius: 2px;
+}
+
+ul li:nth-child(even) {
+  background-color: #5a66f3;
+  border-radius: 2px;
 }
 
 .input-field {
@@ -76,7 +93,6 @@ legend {
   display: inline;
   margin: 5px;
 }
-
 
 .button {
   background-color: #f1f1f1;

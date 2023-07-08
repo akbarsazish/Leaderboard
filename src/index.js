@@ -20,7 +20,7 @@ refreshButton.addEventListener('click', async () => {
     scoreList.innerHTML = '';
     data.result.forEach((score) => {
       const li = document.createElement('li');
-      li.textContent = `User: ${score.user}, Score: ${score.score}`;
+      li.textContent = ` ${score.user} `+ " : " +` ${score.score}`;
       scoreList.appendChild(li);
       location.reload()
     });
