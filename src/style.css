@@ -1,9 +1,10 @@
 body {
-  background:linear-gradient(to right,#6f23ff, #627cf5);
-  color:rgb(240, 232, 232);
+  background: linear-gradient(to right, #6f23ff, #627cf5);
+  color: rgb(240, 232, 232);
 }
 
 .big-title {
+  /* stylelint-disable-next-line */
   font-size: clamp(2.4rem, 2vw + 0.75rem, 1.5rem);
 }
 
@@ -22,7 +23,7 @@ body {
 
 .myLegend {
   font-size: 18px;
-  color:#fff;
+  color: #fff;
 }
 
 .leaderboard-items {
@@ -61,18 +62,18 @@ legend {
 
 .scores-list {
   border-radius: 5px;
-  margin-top: 0px;
-  padding-left: 10px ;
+  margin-top: 1px;
+  padding-left: 10px;
 }
 
 .scores-list li {
-  list-style-type:decimal;
+  list-style-type: decimal;
   margin-top: 5px;
   padding: 5px;
 }
 
 ul li:nth-child(odd) {
-  background-color:#547af1;
+  background-color: #547af1;
   border-radius: 2px;
 }
 

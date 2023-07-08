@@ -10,7 +10,7 @@ const showScore = () => {
       scoreList.innerHTML = '';
       response.result.forEach((score) => {
         const li = document.createElement('li');
-        li.textContent = `${score.user} `+ "   :   " +` ${score.score}`;
+        li.textContent = `${score.user}  + '   :   ' +  ${score.score}`;
         scoreList.appendChild(li);
       });
     })
