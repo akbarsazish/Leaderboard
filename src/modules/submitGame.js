@@ -18,6 +18,9 @@ const handleSubmit = async (event) => {
 
     }).then((data) => data.json());
     console.log(response);
+    nameInput.value = ""
+    scoreInput.value = ""
+    
   } catch (error) {
     throw error;
   }
