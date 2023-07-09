@@ -57,8 +57,7 @@
 <!-- LIVE DEMO -->
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> coming soon 🎈
-
+[Live Demo On Gh-pages](https://akbarsazish.github.io/Leaderboard)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
