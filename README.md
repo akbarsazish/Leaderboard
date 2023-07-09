@@ -1,4 +1,10 @@
 # Leaderboard
+
+| Desktop Veiw Representation|
+|---------------------------------------|
+|<div align="center">![screenshot](./src/desktop.png)</div>|
+
+
 <a name="readme-top"></a>
 
 <div align="center">
